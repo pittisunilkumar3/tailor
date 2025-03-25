@@ -73,7 +73,7 @@ export const validateMeasurementForm = (formData: Record<string, any>): Validati
   // Validate city
   const validCities = [
     'Mumbai', 'Delhi', 'Bangalore', 'Hyderabad', 'Chennai',
-    'Kolkata', 'Pune', 'Ahmedabad', 'Jaipur', 'Surat'
+    'Kolkata', 'Pune', 'Vizag'
   ];
   
   const sanitizedCity = sanitizeInput(formData.city || '');

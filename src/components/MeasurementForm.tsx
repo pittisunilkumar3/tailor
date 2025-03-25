@@ -251,15 +251,14 @@ const MeasurementForm = () => {
             >
               <option value="">Select a city</option>
               <option value="Mumbai">Mumbai</option>
+              <option value="Vizag">Vizag</option>
               <option value="Delhi">Delhi</option>
               <option value="Bangalore">Bangalore</option>
               <option value="Hyderabad">Hyderabad</option>
               <option value="Chennai">Chennai</option>
               <option value="Kolkata">Kolkata</option>
               <option value="Pune">Pune</option>
-              <option value="Ahmedabad">Ahmedabad</option>
-              <option value="Jaipur">Jaipur</option>
-              <option value="Surat">Surat</option>
+              
             </select>
             {getFieldError(errors, 'city') && (
               <p className="text-xs text-destructive mt-1 animate-fade-in">
